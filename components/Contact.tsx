@@ -2,8 +2,8 @@ const contacts = [
   {
     platform: 'Email',
     value: 'alfcomunitynode',
-    href: 'mailto:alfcomunitynode@gmail.com',
-    display: 'alfcomunitynode@gmail.com',
+    href: 'mailto:alfset5@gmail.com',
+    display: 'email me',
   },
   {
     platform: 'GitHub',
@@ -15,13 +15,13 @@ const contacts = [
     platform: 'Twitter',
     value: '@Alfcomunitynode',
     href: 'https://twitter.com/Alfcomunitynode',
-    display: 'twitter.com/Alfcomunitynode',
+    display: 'My X formerly Twitter',
   },
   {
     platform: 'LinkedIn',
     value: 'Alfino Setiawan',
     href: 'https://linkedin.com/in/alfino-setiawan',
-    display: 'linkedin.com/in/alfino-setiawan',
+    display: 'My Linkedln',
   },
   {
     platform: 'Whatsapp',
