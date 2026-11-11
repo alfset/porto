@@ -16,6 +16,7 @@ export default function Footer() {
               { l: 'About', h: '#about' },
               { l: 'Stack', h: '#stack' },
               { l: 'Experience', h: '#experience' },
+              { l: 'Security', h: '#security' },
               { l: 'Work', h: '#work' },
               { l: 'Projects', h: '#projects' },
               { l: 'Contact', h: '#contact' },

@@ -5,6 +5,7 @@ import Marquee from '@/components/Marquee'
 import About from '@/components/About'
 import TechStack from '@/components/TechStack'
 import Experience from '@/components/Experience'
+import SecurityFindings from '@/components/SecurityFindings'
 import SampleWork from '@/components/SampleWork'
 import Projects from '@/components/Projects'
 import Activity from '@/components/Activity'
@@ -31,6 +32,7 @@ export default async function Home() {
       <About />
       <TechStack />
       <Experience />
+      <SecurityFindings />
       <SampleWork />
       <Projects repos={repos} />
       <Activity events={events} user={user} />

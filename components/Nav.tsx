@@ -5,6 +5,7 @@ const links = [
   { label: 'About', href: '#about' },
   { label: 'Stack', href: '#stack' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Security', href: '#security' },
   { label: 'Work', href: '#work' },
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
@@ -39,7 +40,7 @@ export default function Nav() {
         </a>
 
         {/* Desktop links */}
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="hidden lg:flex items-center gap-8">
           {links.map((l) => (
             <li key={l.href}>
               <a
@@ -54,14 +55,14 @@ export default function Nav() {
         </ul>
 
         {/* Status pill */}
-        <div className="hidden md:flex items-center gap-2 px-3 py-1.5 border border-[#0A0A0A]/15 text-[10px] tracking-widest uppercase text-[#3D3B38]">
+        <div className="hidden lg:flex items-center gap-2 px-3 py-1.5 border border-[#0A0A0A]/15 text-[10px] tracking-widest uppercase text-[#3D3B38]">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
           Open to Collaborate
         </div>
 
         {/* Mobile menu toggle */}
         <button
-          className="md:hidden flex flex-col gap-1.5 p-1"
+          className="lg:hidden flex flex-col gap-1.5 p-1"
           onClick={() => setMenuOpen((v) => !v)}
           aria-label="Menu"
         >
@@ -73,7 +74,7 @@ export default function Nav() {
 
       {/* Mobile drawer */}
       {menuOpen && (
-        <div className="md:hidden border-t border-[#0A0A0A]/10 bg-[#F7F5F0]/95 backdrop-blur-md px-6 py-6 flex flex-col gap-5">
+        <div className="lg:hidden border-t border-[#0A0A0A]/10 bg-[#F7F5F0]/95 backdrop-blur-md px-6 py-6 flex flex-col gap-5">
           {links.map((l) => (
             <a
               key={l.href}
