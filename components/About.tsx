@@ -43,12 +43,10 @@ export default function About() {
               Cosmos ecosystem and EVM-compatible chains.
             </p>
             <p>
-              I also research blockchain security, with findings in consensus
-              verification and native-token accounting. Explore my{' '}
+              I also find and report blockchain vulnerabilities.{' '}
               <a href="#security" className="underline underline-offset-4 hover:text-[#0A0A0A]">
-                security findings
-              </a>{' '}
-              for the public XGR advisory and a summary of my ABEY report.
+                View findings ↗
+              </a>
             </p>
           </div>
 
